@@ -1,6 +1,8 @@
 namespace Core.Entities
 {
-    public class Product : BaseEnitity
+  
+
+    public class Product : BaseEntity
     {
         public  string Name { get; set; }
         public string Description  { get; set; }
@@ -17,4 +19,7 @@ namespace Core.Entities
 
         public int ProductBrandId {get; set;}
     }
-}
+
+ }
+
+    
