@@ -1,7 +1,7 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
   "cli": {
-    "analytics": "321b2600-5256-4f4c-b2f2-99330c1e4c54"
+    "analytics": "06f7ecee-b0e0-47c6-974c-fedf05c9885e"
   },
   "version": 1,
   "newProjectRoot": "projects",
@@ -73,25 +73,14 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
-          "configurations": {
-            "production": {
-              "browserTarget": "client:build:production", 
-               "sslKey": "ssl/server.key",
-               "sslCert": "ssl/server.crt",
-               "ssl": true
-            },
-            "development": {
-              "browserTarget": "client:build:development"
-            }
-          },
-          "defaultConfiguration": "development"
-        },
-        "extract-i18n": {
-          "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
+            "sslCert": "ssl/server.crt",
+            "sslKey": "ssl/server.key",
+            "ssl": true,
             "browserTarget": "client:build"
-          }
-        },
+         
+        }
+      },
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
@@ -106,9 +95,10 @@
             ],
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "./node_modules/ngx-bootstrap/dist/css/bs-datepicker.css",
-              "./node_modules/font-awesome/css/font-awsome.min.css",
+              "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
+              "./node_modules/font-awesome/css/font-awesome.min.css",
               "src/styles.scss"
+
             ],
             "scripts": []
           }
