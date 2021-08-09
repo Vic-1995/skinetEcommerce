@@ -4,9 +4,12 @@ border-bottom shadow-sm fixed-top">
  routerLink="/">
 
     <nav class="my-2 my-md-0 mr-md-3 text-uppercase" styple="font-size: larger;">
-      <a class="p-2 " [routerLink]="['/']" routerLinkActive="active" 
+      <a class="p-2 " [routerLink]="['/']" routerLinkActive="router-link-active" ] routerLinkActive="active" 
       [routerLinkActiveOptions]="{exact: true}" >Home</a>
       <a class="p-2 "routerLink="/shop" routerLinkActive="active">Shop</a>
+      <a class="p-2" #herf="">Shipping</a>
+      <a class="p-2" #herf="">Contact US</a>
+    
       <a class="p-2 " routerLink="/test-error" routerLinkActive="active">Errors</a>
 
     </nav>
