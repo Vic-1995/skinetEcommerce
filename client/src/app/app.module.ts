@@ -5,10 +5,8 @@ import {HttpClientModule} from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CoreModule } from './core/core.module';
-import { ShopModule } from './shop/shop.module';
 import { HomeModule } from './home/home.module';
-import { TestErrorComponent } from './core/test-error/test-error.component';
+import { CoreModule } from './core/core.module';
 
 
 
@@ -16,7 +14,7 @@ import { TestErrorComponent } from './core/test-error/test-error.component';
 @NgModule({
   declarations: [
     AppComponent,
-    TestErrorComponent
+ 
   ],
   imports: [
     BrowserModule,
@@ -25,9 +23,12 @@ import { TestErrorComponent } from './core/test-error/test-error.component';
     HttpClientModule,
     CoreModule,
     HomeModule
-
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+
+export class AppModule{ }
+
+
+
