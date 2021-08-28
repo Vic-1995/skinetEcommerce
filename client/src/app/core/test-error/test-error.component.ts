@@ -21,7 +21,7 @@ export class TestErrorComponent implements OnInit {
       console.log(response);
     }, error => {
       console.log(error);
-    })
+    });
   }
 
   get500Error() { 
@@ -29,7 +29,7 @@ export class TestErrorComponent implements OnInit {
       console.log(response);
     }, error => {
       console.log(error);
-    })
+    });
   }
 
   get400Error() {
@@ -37,7 +37,7 @@ export class TestErrorComponent implements OnInit {
       console.log(response);
     }, error => {
       console.log(error);
-    })
+    });
   }
 
   get400ValidationError() {
@@ -46,7 +46,7 @@ export class TestErrorComponent implements OnInit {
     }, error => {
       console.log(error);
       this.validationErrors = error.errors;
-    })
+    });
   }
 
 }
