@@ -27,6 +27,7 @@ namespace API
                      await StoreContextSeed.SeedAsync(context, loggerFactory);
 
 
+                  
                      var userManager = services.GetRequiredService<UserManager<AppUser>>();
                      var identityContext = services.GetRequiredService<AppIdentityDbContext>();
                      await identityContext.Database.MigrateAsync();

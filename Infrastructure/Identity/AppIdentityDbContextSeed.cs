@@ -13,8 +13,8 @@ namespace Infrastructure.Identity
             {
                 var user = new AppUser
                 {
-                    DispalyName = "Bob",
-                    Email ="bob@test.com",
+                    DisplayName = "Bob",
+                    Email = "bob@test.com",
                     UserName = "bob@test.com",
                     Address = new Address
                     {
@@ -23,7 +23,7 @@ namespace Infrastructure.Identity
                         Street = "10 the Street",
                         City = "New York",
                         State = "NY",
-                        ZipCode = "90210"
+                        ZipCode = "90201"
                     }
                 };
 

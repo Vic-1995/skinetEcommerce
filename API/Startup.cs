@@ -20,7 +20,7 @@ namespace API
         public Startup(IConfiguration config)
         {
             _config = config;
-            
+
         }
 
 
@@ -29,25 +29,28 @@ namespace API
         public void ConfigureServices(IServiceCollection services)
         {
 
-            
-            services.AddAutoMapper(typeof(MappingProfiles)); 
+
+            services.AddAutoMapper(typeof(MappingProfiles));
             services.AddControllers();
-            
+
+
+            services.AddDbContext<StoreContext>(x => x.UseSqlite(_config.GetConnectionString("DefaultConnection")));
+
             services.AddDbContext<AppIdentityDbContext>(x =>
             {
                 x.UseSqlite(_config.GetConnectionString("IdentityConnection"));
             });
-            services.AddDbContext<StoreContext>(x => x.UseSqlite(_config.GetConnectionString("DefaultConnection")));
 
-            services.AddSingleton<IConnectionMultiplexer>(c => {
-               var configuration = ConfigurationOptions.Parse(_config
-                 .GetConnectionString("Redis"), true);
-            return ConnectionMultiplexer.Connect(configuration);
-        });
+            services.AddSingleton<IConnectionMultiplexer>(c =>
+            {
+                var configuration = ConfigurationOptions.Parse(_config
+                  .GetConnectionString("Redis"), true);
+                return ConnectionMultiplexer.Connect(configuration);
+            });
 
 
             services.AddApplicationServices();
-            services.AddIdentityService();
+            services.AddIdentityServices();
             services.AddSwaggerGen();
             services.AddCors(opt =>
             {
@@ -56,8 +59,8 @@ namespace API
                     policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("Https://localhost:4200");
                 });
             });
-          
-            
+
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -65,7 +68,7 @@ namespace API
         {
             app.UseMiddleware<ExceptionMiddleware>();
 
-             
+
 
 
             app.UseStatusCodePagesWithReExecute("/errors/{0}");
@@ -76,7 +79,7 @@ namespace API
             app.UseStaticFiles();
 
             app.UseCors("CorsPolicy");
-            
+
             app.UseAuthorization();
 
             app.UseSwaggerDocumentation();
