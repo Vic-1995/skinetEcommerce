@@ -1,17 +1,12 @@
-using System.ComponentModel.DataAnnotations;
-
-namespace Core.Entities.Identity
+namespace API.Dtos
 {
-    public class Address
+    public class AddressDto
     {
-        public int Id {get ; set; }
-
         public string FirstName { get; set; }
 
         public string LastName { get; set; }
 
         public string Street { get; set; }
-
         public string City { get; set; }
 
         public string State { get; set; }
@@ -20,8 +15,5 @@ namespace Core.Entities.Identity
 
 
     
-        public string AppUserId { get; set; }
-
-        public AppUser AppUser { get; set; }
     }
 }
