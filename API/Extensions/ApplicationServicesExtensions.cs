@@ -10,8 +10,7 @@ namespace API.Extensions
 {
     public static class ApplicationServicesExtensions
     {
-        private static object errorRespose;
-
+       
         public static IServiceCollection AddApplicationServices(this IServiceCollection services)
         {
             services.AddScoped<ITokenService, TokenService>();
@@ -33,7 +32,7 @@ namespace API.Extensions
                             Errors = errors
                         };
 
-                        return new BadRequestObjectResult(errorRespose);
+                        return new BadRequestObjectResult(errorResponse);
 
                     };
                     
