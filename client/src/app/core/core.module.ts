@@ -19,6 +19,7 @@ import { BreadcrumbModule } from 'xng-breadcrumb';
     CommonModule,
     RouterModule,
     BreadcrumbModule,
+    SharedModule,
     ToastrModule.forRoot({
       positionClass: 'toast-bottom-right',
       preventDuplicates: true
