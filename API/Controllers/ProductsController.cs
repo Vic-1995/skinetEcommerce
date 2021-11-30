@@ -62,7 +62,7 @@ namespace API.Controllers
 
             return _mapper.Map<Product, ProductToReturnDto>(product);
 
-        if(product == null) return NotFound(new ApiResponse(404));
+        if (product == null) return NotFound(new ApiResponse(404));
 
             return _mapper.Map<Product, ProductToReturnDto>(product);
         }
