@@ -11,7 +11,7 @@ import { CdkStepper } from '@angular/cdk/stepper';
   styleUrls: ['./checkout-review.component.scss']
 })
 export class CheckoutReviewComponent implements OnInit {
-  
+  @Input() appStepper: CdkStepper;
   basket$: Observable<IBasket>;
 
   constructor(private basketService: BasketService, private toastr: ToastrService) { }
@@ -21,11 +21,13 @@ export class CheckoutReviewComponent implements OnInit {
   }
 
   createPaymentIntent() {
-    return this.basketService.createPaymentInt().subscribe((response: any) => {
-      this.toastr.success('payment intent created');
+    return this.basketService.createPaymentIntent().subscribe((response: any) => {
+      this.toastr.success('Payment intent created');
     }, error => {
       console.log(error);
-      this.toastr.error(error.message);
-    });
+      this.toastr.error(error);
+    })
+
+
   }
 }
