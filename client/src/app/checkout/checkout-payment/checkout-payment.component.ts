@@ -41,7 +41,7 @@ export class CheckoutPaymentComponent implements AfterViewInit, OnDestroy {
     this.cardNumber.addEventListener('change', this.cardHandler);
 
     this.cardExpiry = elements.create('cardExpiry');
-    this.cardExpiry.mount(this.cardExpiry.nativeElement);
+    this.cardExpiry.mount(this.cardExpiryElement.nativeElement);
     this.cardExpiry.addEventListener('change', this.cardHandler);
 
     this.cardCvc = elements.create('cardCvc');
@@ -70,9 +70,23 @@ export class CheckoutPaymentComponent implements AfterViewInit, OnDestroy {
     const orderToCreate = this.getOrderToCreate(basket);
     this.checkoutService.createOrder(orderToCreate).subscribe((order: IOrder) => {
       this.toastr.success('Order created sucessfully');
+      this.stripe.confirmCardPayment(basket.clientSecret, {
+        payment_method: {
+          card: this.cardNumber,
+          billing_details: {
+            name: this.checkoutForm.get('paymentForm').get('nameOnCard').value 
+          }
+        }
+      }).then(result => {
+        console.log(result);
+        if (result.paymentIntent) {
       this.basketService.deleteLocalBasket(basket.id);
       const navigationExtras: NavigationExtras = {state: order};
-      this.router.navigate(['checkout/sucess'], navigationExtras)
+      this.router.navigate(['checkout/success'], navigationExtras);
+        } else{
+          this.toastr.error('Payment error')
+        }
+      });
     }, error => {
       this.toastr.error(error.message);
       console.log(error);
