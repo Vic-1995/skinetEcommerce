@@ -1,26 +1,114 @@
 [
   {
     "Id": 1,
-    "Name": "Addidas"
-  },
-  {
-    "Id": 2,
     "Name": "Nike"
   },
   {
+    "Id": 2,
+    "Name": "Louis Vuitton"
+  },
+  {
     "Id": 3,
-    "Name": "Guccie"
+    "Name": "Gucci"
   },
   {
     "Id": 4,
-    "Name": "Apple"
+    "Name": "Adidas"
   },
   {
     "Id": 5,
-    "Name": "Samsung"
+    "Name": "H&M"
   },
   {
     "Id": 6,
-    "Name": "MACBOOK"
+    "Name": "Zara"
+  },
+  {
+    "Id": 7,
+    "Name": "Tiffany & Co"
+  },
+  {
+    "Id": 8,
+    "Name": "Lululemon"
+  },
+  {
+    "Id": 9,
+    "Name": "Chanel"
+  },
+  {
+    "Id": 10,
+    "Name": "Rolex"
+  },
+  {
+    "Id": 11,
+    "Name": "Tom Ford"
+  },
+  {
+    "Id": 12,
+    "Name": "Levi's"
+  },
+  {
+    "Id": 13,
+    "Name": "Victoria's Secret"
+  },
+  {
+    "Id": 14,
+    "Name": "SKECHERS"
+  },
+  {
+    "Id": 15,
+    "Name": "Coach"
+  },
+  {
+    "Id": 16,
+    "Name": "Under Amor"
+  },
+  {
+    "Id": 17,
+    "Name": "The North Face"
+  },
+  {
+    "Id": 18,
+    "Name": "ASOS"
+  },
+  {
+    "Id": 19,
+    "Name": "Nordstrom"
+  },
+  {
+    "Id": 20,
+    "Name": "Puma"
+  },
+  {
+    "Id": 21,
+    "Name": "American Eagle Outfitter"
+  },
+  {
+    "Id": 22,
+    "Name": "Old Navy"
+  },
+  {
+    "Id": 23,
+    "Name": "GAP"
+  },
+  {
+    "Id": 24,
+    "Name": "Forever 21"
+  },
+  {
+    "Id": 25,
+    "Name": "Tommy Hilfiger"
+  },
+  {
+    "Id": 26,
+    "Name": "Aldo"
+  },
+  {
+    "Id": 27,
+    "Name": "Samsung"
+  },
+  {
+    "Id": 28,
+    "Name": "Apple"
   }
 ]

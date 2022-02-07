@@ -1,27 +1,11 @@
 [
   {
     "Id": 1,
-    "Name": "T-Shirts"
+    "Name": "Men's"
   },
   {
     "Id": 2,
-    "Name": "Pants"
-  },
-  {
-    "Id": 3,
-    "Name": "Mens"
-  },
-  {
-    "Id": 4,
-    "Name": "Womens"
-  },
-  {
-    "Id": 1,
-    "Name": "Electronics"
-  },
-  {
-    "Id": 2,
-    "Name": "Kitchen Wears"
+    "Name": "Women's"
   },
   {
     "Id": 3,
@@ -29,6 +13,74 @@
   },
   {
     "Id": 4,
-    "Name": "Footwares"
+    "Name": "Cell Phones & Accessories"
+  },
+  {
+    "Id": 5,
+    "Name": "Computers & Accessories"
+  },
+  {
+    "Id": 6,
+    "Name": "Office Products"
+  },
+  {
+    "Id": 7,
+    "Name": "Home & Kitchen"
+  },
+  {
+    "Id": 8,
+    "Name": "Automotive"
+  },
+  {
+    "Id": 9,
+    "Name": "Beauty & Personal Care"
+  },
+  {
+    "Id": 10,
+    "Name": "Electronics"
+  },
+  {
+    "Id": 11,
+    "Name": "Jewelry"
+  },
+  {
+    "Id": 12,
+    "Name": "Toys & Games"
+  },
+  {
+    "Id": 13,
+    "Name": "Sports & Outdoors"
+  },
+  {
+    "Id": 14,
+    "Name": "Appliance"
+  },
+  {
+    "Id": 15,
+    "Name": "Patie Lawn & Garden"
+  },
+  {
+    "Id": 16,
+    "Name": "Software"
+  },
+  {
+    "Id": 17,
+    "Name": "Tools & Home Improvement"
+  },
+  {
+    "Id": 18,
+    "Name": "Baby"
+  },
+  {
+    "Id": 19,
+    "Name": "Health & HouseHold"
+  },
+  {
+    "Id": 20,
+    "Name": "Industrial & Scientific"
+  },
+  {
+    "Id": 21,
+    "Name": "UniSex"
   }
 ]

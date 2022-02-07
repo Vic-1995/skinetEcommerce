@@ -1,146 +1,146 @@
 [
   {
-    "Name": "Nike Dopify Air-tag Case Cover",
-    "Description": " Scratch",
+    "Name": "Men's Nike Air running Shoes",
+    "Description": "Men's Nike Air Monarch IV Training Shoe sets you up for comfortable training with durable leather on top for support. A lightweight foam midsole with a full-length encapsulated Air-Sole unit cushions every stride in the Nike men's shoe.",
     "Price": 200,
-    "PictureUrl": "images/products/sb-ang1.png",
+    "PictureUrl": "assets/images/nike.png",
     "ProductTypeId": 1,
     "ProductBrandId": 1
   },
   {
-    "Name": "Green Angular Board 3000",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 150,
-    "PictureUrl": "images/products/sb-ang2.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 1
+    "Name": "Women's Gucci Bag",
+    "Description": "Absoulte trendding cheap and best Gucci bag for women",
+    "Price": "1,150.00",
+    "PictureUrl": "assets/images/gucci.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 3
   },
   {
-    "Name": "Core Board Speed Rush 3",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
+    "Name": "Men's Adidas Shoes",
+    "Description": "Really Comfortable for work, gym and outdoor",
     "Price": 180,
-    "PictureUrl": "images/products/sb-core1.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 2
+    "PictureUrl": "assets/images/nike.png",
+    "ProductTypeId": 4,
+    "ProductBrandId": 1
   },
   {
-    "Name": "Net Core Super Board",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
+    "Name": "Women's Zara Dress",
+    "Description": "Great summer dress for women",
     "Price": 300,
-    "PictureUrl": "images/products/sb-core2.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 2
+    "PictureUrl": "assets/images/zara.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 6
   },
   {
-    "Name": "React Board Super Whizzy Fast",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Name": "Pet Samsung SmartTag",
+    "Description": "Samsung Galaxy SmartTag Bluetooth Tracker & Item Locator for Keys, Wallets, Luggage, Pets and More (1 Pack), Black (US Version)tuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
     "Price": 250,
-    "PictureUrl": "images/products/sb-react1.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 4
+    "PictureUrl": "assets/images/smartag.png",
+    "ProductTypeId": 3,
+    "ProductBrandId": 27
   },
   {
-    "Name": "Typescript Entry Board",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
+    "Name": "Women's Chanel Purfum",
+    "Description": "SIGNATURE FRAGRANCE: Oriental and floral, Nicole Miller’s signature scent is a classic romantic and feminine fragrance for women. The pure, sensual fragrance is ideal for day and evening wear.",
     "Price": 120,
-    "PictureUrl": "images/products/sb-ts1.png",
+    "PictureUrl": "assets/images/chanel.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 9
+  },
+  {
+    "Name": "Women's Louis Vitton",
+    "Description": "Must Have Trending Bag for women for vacation or causal.",
+    "Price": "1,000.00",
+    "PictureUrl": "assets/images/hoodies.png",
     "ProductTypeId": 1,
     "ProductBrandId": 5
   },
   {
-    "Name": "Core Blue Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 10,
-    "PictureUrl": "images/products/hat-core1.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "Green React Woolen Hat",
+    "Name": "Men's H&M Hoodies",
     "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 8,
-    "PictureUrl": "images/products/hat-react1.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Purple React Woolen Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 15,
-    "PictureUrl": "images/products/hat-react2.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Blue Code Gloves",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
     "Price": 18,
-    "PictureUrl": "images/products/glove-code1.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 3
+    "PictureUrl": "assets/products/hmhoddies.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 5
   },
   {
-    "Name": "Green Code Gloves",
+    "Name": "Women's H&M Dress",
+    "Description": "Women Sexy Satin Dress Spaghetti Strap Backless Mini Dress Solid Color Slim Fit V Neck Dress for Party Club Street",
+    "Price": 150,
+    "PictureUrl": "assets/products/hmdress.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 4
+  },
+  {
+    "Name": "Apple Watch",
+    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
+    "Price": 250,
+    "PictureUrl": "assets/products/watch.png",
+    "ProductTypeId": 10,
+    "ProductBrandId": 28
+  },
+  {
+    "Name": "Men's NorthFace Jacket",
     "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 15,
-    "PictureUrl": "images/products/glove-code2.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 3
+    "Price": 150,
+    "PictureUrl": "assets/products/nf.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 17
   },
   {
-    "Name": "Purple React Gloves",
+    "Name": "Women's NorthFace Jacket",
     "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
-    "Price": 16,
-    "PictureUrl": "images/products/glove-react1.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 4
+    "Price": 160,
+    "PictureUrl": "assets/products/nf.png",
+    "ProductTypeId": 2,
+    "ProductBrandId": 17
   },
   {
-    "Name": "Green React Gloves",
+    "Name": "Electronics Apple Iphone",
     "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 14,
-    "PictureUrl": "images/products/glove-react2.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 4
+    "Price": "1,114.00",
+    "PictureUrl": "assets/products/iphone.png",
+    "ProductTypeId": 10,
+    "ProductBrandId": 28
   },
   {
-    "Name": "Redis Red Boots",
+    "Name": "UniSex OldNavy Jeans",
     "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
     "Price": 250,
-    "PictureUrl": "images/products/boot-redis1.png",
+    "PictureUrl": "assets/products/oldnavyjeans.png",
     "ProductTypeId": 3,
     "ProductBrandId": 6
   },
   {
-    "Name": "Core Red Boots",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Name": "Electronics Samsung Iphone",
+    "Description": "Samsung Galaxy S21 FE 5G Cell Phone, Factory Unlocked Android Smartphone, 128GB, 120Hz Display, Pro Grade Camera, All Day Intelligent Battery, US Version, White",
     "Price": 189.99,
-    "PictureUrl": "images/products/boot-core2.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 2
+    "PictureUrl": "assets/products/samsung.png",
+    "ProductTypeId": 10,
+    "ProductBrandId": 27
   },
   {
-    "Name": "Core Purple Boots",
+    "Name": "Men's Rolex Watch",
     "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
     "Price": 199.99,
-    "PictureUrl": "images/products/boot-core1.png",
+    "PictureUrl": "assets/products/boot-core1.png",
     "ProductTypeId": 3,
     "ProductBrandId": 2
   },
   {
-    "Name": "Angular Purple Boots",
+    "Name": "UniSex Puma Sport Shoes",
     "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
     "Price": 150,
-    "PictureUrl": "images/products/boot-ang2.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 1
+    "PictureUrl": "assets/images/puma.png",
+    "ProductTypeId": 21,
+    "ProductBrandId": 20
   },
   {
-    "Name": "Angular Blue Boots",
+    "Name": "Baby Nordstrom clothes",
     "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
     "Price": 180,
-    "PictureUrl": "images/products/boot-ang1.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 1
+    "PictureUrl": "assets/images/baby.png",
+    "ProductTypeId": 18,
+    "ProductBrandId": 17
   }
 ]
